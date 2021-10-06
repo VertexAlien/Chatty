@@ -1,0 +1,10 @@
+fmt: multipack fmt .
+analyze: multipack analyze .
+
+code_gen: flutter pub run build_runner build
+code_gen_reset: flutter pub run build_runner build --delete-conflicting-outputs
+
+web_skia: flutter run -d chrome --dart-define=FLUTTER_WEB_USE_SKIA=true
+build_web_skia: flutter build web --dart-define=FLUTTER_WEB_USE_SKIA=true
+
+icons: flutter pub run flutter_launcher_icons:main

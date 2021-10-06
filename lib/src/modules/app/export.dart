@@ -1,0 +1,17 @@
+export '../../../i18n/strings.g.dart';
+export '../../common/image_full_view.dart';
+export '../../core/export.dart';
+export '../auth/domain/entities/user.dart';
+export '../auth/module.dart';
+export '../auth/presentation/auth/controller.dart';
+export '../chat/module.dart';
+export '../chat/presentation/chats/index.dart';
+export '../feeds/module.dart';
+export '../feeds/presentation/posts/feed/index.dart';
+export '../groups/module.dart';
+export '../groups/presentation/groups_list/index.dart';
+export '../notifications/module.dart';
+export '../notifications/presentation/index.dart';
+export 'domain/app_store.dart';
+export 'module.dart';
+export 'presentation/settings/settings.dart';

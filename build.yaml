@@ -1,0 +1,6 @@
+targets:
+  $default:
+    sources:
+      exclude:
+        - lib/src/modules/call/presentation/voice call/voice_call.dart
+        - lib/src/modules/call/presentation/video call/video_call.dart
